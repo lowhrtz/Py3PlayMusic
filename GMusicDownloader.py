@@ -24,7 +24,6 @@ from datetime import datetime as dt
 from eyed3.id3.frames import ImageFrame
 from eyed3.mp3 import Mp3AudioFile
 from gmusicapi import Mobileclient
-#import auth
 import shared
 
 
