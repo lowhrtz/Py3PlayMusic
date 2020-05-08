@@ -468,7 +468,7 @@ class MainWindow(shared.Centerable, Tkinter.Tk):
             search_field = track.get('genre', '')
         elif current_search == "Search by Title":
             #search_field = track['title']
-            search_field = tracki.get('title', '')
+            search_field = track.get('title', '')
         else:
             #search_field = track['album']
             search_field = track.get('album', '')
